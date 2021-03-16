@@ -39,6 +39,7 @@ function tableHeader (){
 
 }
 
+console.log ( tableHeader );
 
 Flowers.prototype.render = function (){
   const parentElement = document.getElementById ( 'table' );
